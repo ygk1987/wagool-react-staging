@@ -10,7 +10,7 @@ import App from './App'
 
 //4.渲染App到root容器
 ReactDOM.render(
-  <HashRouter>
+  <BrowserRouter>
     <App/>
-  </HashRouter>, 
+  </BrowserRouter>, 
 document.getElementById('root'))
