@@ -3,9 +3,14 @@
 import React from 'react'
 //2.引入react-dom库
 import ReactDOM from 'react-dom'
+import {HashRouter} from 'react-router-dom'
 
 //3.引入App
 import App from './App'
 
 //4.渲染App到root容器
-ReactDOM.render(<App/>, document.getElementById('root'))
+ReactDOM.render(
+  <HashRouter>
+    <App/>
+  </HashRouter>, 
+document.getElementById('root'))
